@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: 0 -110px;
+  background-color: hsl(225, 100%, 94%);
+}
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.all {
+  width: 400px;
+  border-radius: 20px;
+  background-color: hsl(225, 100%, 98%);
+  height: 615px;
+}
+article {
+  text-align: center;
+}
+article p {
+  margin-top: 20px;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+.word {
+  padding: 40px;
+}
+h1 {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+section {
+  display: flex;
+  background-color: hsla(224, 23%, 55%, 0.068);
+  border-radius: 15px;
+  align-items: center;
+  padding: 20px 15px;
+}
+section svg {
+  margin-right: 15px;
+}
+section div {
+  margin-right: auto;
+}
+.plan h3 {
+  font-weight: 900;
+  font-size: 16px;
+}
+.plan p {
+  color: hsl(224, 23%, 55%);
+}
+section a {
+  color: hsl(245, 75%, 52%);
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.3s;
+}
+section a:hover {
+  color: hsla(245, 75%, 52%, 0.671);
+}
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: -6px 15px 20px 0px hsl(245deg 75% 52% / 55%);
+  border: none;
+  transition: 0.3s;
+}
+.cancel {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  transition: 0.3s;
+  font-weight: bold;
+}
+.cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
+button:hover {
+  background-color: hsla(245, 75%, 52%, 0.671);
+}
